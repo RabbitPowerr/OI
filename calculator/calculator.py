@@ -1,4 +1,4 @@
-from calculator.salary import Salary 
+from calculator.Spendings import Spendings 
 
 class Calculator():
     def __init__(self):
@@ -6,5 +6,11 @@ class Calculator():
 
     @staticmethod
     def Get_price(data):
-        cost = Salary.Calc(data['Salary'])
-        return cost / data['Num_students']
+        total=Spendings().Calc(data)
+        cost_t= Spendings.Salary(data)
+        total['Online']+=cost_t
+        total['Offline']+=cost_t
+        total['Online']/=data['Num_students']
+        total['Offline']/=data['Num_students']
+        return total
+        
