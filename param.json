@@ -4,78 +4,92 @@
             "Regularyty":1,
             "Cost": 1000,
             "Need_in_offline":true,
-            "Need_in_online":true
+            "Need_in_online":true,
+            "Num_groups": 8
         },
         "Antiseptic":{
             "Regularyty":1,
             "Cost": 1000,
-            "Need_in_offline":false,
-            "Need_in_online":true
+            "Need_in_offline":true,
+            "Need_in_online":false,
+            "Num_groups": 8
         },
         "1C_expenses":{
             "Regularyty":12,
             "Cost": 90000,
             "Need_in_offline":true,
-            "Need_in_online":true
+            "Need_in_online":true,
+            "Num_groups": 7
         },
         "Accountant":{
             "Regularyty":1,
             "Cost": 40000,
             "Need_in_offline":true,
-            "Need_in_online":true
+            "Need_in_online":true,
+            "Num_groups": 7
         },
         "System_Administrator":{
             "Regularyty":1,
             "Cost": 55000,
             "Need_in_offline":true,
-            "Need_in_online":true
+            "Need_in_online":true,
+            "Num_groups": 7
         },
         "Building_maintenance":{
             "Regularyty":1,
             "Cost": 55000,
             "Need_in_offline":true,
-            "Need_in_online":false  
+            "Need_in_online":false  ,
+            "Num_groups": 7
         },
         "Secutiry":{
             "Regularyty":1,
-            "Cost": 30000,
+            "Cost": 35000,
             "Need_in_offline":true,
-            "Need_in_online":false
+            "Need_in_online":false,
+            "Num_groups": 7
         },
         "Cleaning":{
             "Regularyty":1,
-            "Cost": 20000,
+            "Cost": 30000,
             "Need_in_offline":true,
-            "Need_in_online":false
+            "Need_in_online":false,
+            "Num_groups": 4
         },
         "Cloakroom attendant":{
             "Regularyty":1,
-            "Cost": 20000,
+            "Cost": 30000,
             "Need_in_offline":true,
-            "Need_in_online":false
+            "Need_in_online":false,
+            "Num_groups": 7
         },
         "Furniture":{
             "Regularyty":120,
-            "Cost": 200000,
+            "Cost": 400000,
             "Need_in_offline":true,
-            "Need_in_online":false
+            "Need_in_online":false,
+            "Num_groups": 4
         },
         "Computers_etc.":{
             "Regularyty":60,
-            "Cost": 500000,
+            "Cost": 700000,
             "Need_in_offline":true,
-            "Need_in_online":false
+            "Need_in_online":false,
+            "Num_groups": 4
         },
         "Chancery":{
             "Regularyty":1,
             "Cost": 3000,
             "Need_in_offline":true,
-            "Need_in_online":false
+            "Need_in_online":false,
+            "Num_groups": 1 
+
         }
     },
+    "Avaliable_thours":3,
     "Years":4,
     "Num_students":22,
-    "Inflation":0.63,
+    "Inflation":0.063,
     "Num_of_subjects":5,
     "Salary":60000,
     "num_of_subjects":[8,15,18,5]
