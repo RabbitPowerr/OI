@@ -28,3 +28,14 @@ OI labs
  
  После применения к FFT фильтра гауса и собеля картинка становится намного лучше.
  ![](https://github.com/RabbitPowerr/OI/blob/main/Lab3/result.png)
+ 
+ 
+Лаба 4 
+Для из всего маленького датасета лучше всего себя показала картинка 1
+До : 
+<img src="https://github.com/RabbitPowerr/OI/blob/main/Lab4/dataset/1.png" width="500" height="500"/>
+
+После :
+<img src="https://github.com/RabbitPowerr/OI/blob/main/Lab4/result/1result_angle40.png" width="500" height="500"/>
+Полные результаты можно посмотреть в `Lab4/results`
+Также полную последовательность действий можно найти в комментариях '/Lab4/main.py'
